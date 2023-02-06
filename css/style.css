@@ -1,0 +1,121 @@
+/* Jumbotron*/
+
+.jumbotron{
+    background-image: url("../Images/IHWN Home Img.png");
+    background-position: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    color: white;
+    word-wrap: break-word;
+    background-color: black;
+    margin-bottom: auto;
+}
+
+
+/*Made With Box*/
+
+.flexcontainter {
+    display:flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    justify-content:right;
+    gap: 20px;
+}
+
+
+/* Bootstrap Column */
+
+.blackarea {
+    background-color: black;
+}
+
+.container { 
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    width: 100%;     
+}
+
+.row {
+    height: 200px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.Research {
+    display: flex;
+    background-color: #BB9F06 ;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;   
+}
+
+.Wireframes {
+    display: flex;
+    background-color: #243119;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.WorkingP{
+    display:flex;
+    background-color: #968E85;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.UserS {
+    width: 100%;
+}
+
+/*pngs of case study*/
+
+.figFile {
+    width:100%;
+    padding: 20px;
+    background-color: black;
+}
+.title {
+    font-family: Raleway bold sans-serif;
+    background-color: black;
+    color: #BB9F06;
+    text-decoration: underline;
+    padding: 20px;
+    margin: 0;
+}
+
+/*
+.image {
+    background: url("../Images/Prototype.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 1;
+    position:absolute;
+  }
+  .overlay {
+    background-image: url("../Images/Desktop gif 2.gif");
+    height: 50%;
+    width: 60%;
+    opacity: 1;
+    background-repeat: repeat;
+    position: absolute;
+      
+  }
+*/
+
+
+/*footer*/
+
+ul {
+    list-style: none;
+    display: flex;
+    border: 20px;
+    background-color: black;
+    color: white;
+    gap: 40px;
+    font-size: x-large;
+
+}
